@@ -1,0 +1,22 @@
+{
+    "name": "gsixme/php-vuforia",
+    "description": "Vuforia web services api implementation in php ",
+    "keywords": ["php", "vuforia", "ar", "augmented-reality", "api"],
+    "homepage": "https://github.com/gsixme/php-vuforia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Teddy Pejoski",
+            "email": "teddy@gsix.me"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "pear/http_request2": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gsix\\Vuforia\\": "src/"
+        }
+    }
+}
