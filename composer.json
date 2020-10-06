@@ -1,6 +1,6 @@
 {
     "name": "gsixme/php-vuforia",
-    "description": "Vuforia web services api implementation in php ",
+    "description": "Vuforia web services api wrapper in php",
     "keywords": ["php", "vuforia", "ar", "augmented-reality", "api"],
     "homepage": "https://github.com/gsixme/php-vuforia",
     "license": "MIT",

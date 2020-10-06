@@ -2,4 +2,5 @@ composer.phar
 /vendor/
 /composer.lock
 /.idea/
+/storage/
 example.php
