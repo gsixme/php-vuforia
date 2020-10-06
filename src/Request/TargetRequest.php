@@ -3,6 +3,8 @@
 namespace Gsix\Vuforia\Request;
 
 use HTTP_Request2;
+use Exception;
+use Gsix\Vuforia\Target;
 
 class TargetRequest extends AbstractRequest
 {
