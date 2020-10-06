@@ -3,6 +3,8 @@
 namespace Gsix\Vuforia;
 
 use Gsix\Vuforia\Request\TargetRequest;
+use Gsix\Vuforia\Request\SummaryRequest;
+use Gsix\Vuforia\Request\DuplicateRequest;
 
 /**
  * Service factory class for API resources in the root namespace.
@@ -64,6 +66,8 @@ class VuforiaClient
      */
     private static $classMap = [
         'targets' => TargetRequest::class,
+        'summary' => SummaryRequest::class,
+        'duplicates' => DuplicateRequest::class,
     ];
 
 
